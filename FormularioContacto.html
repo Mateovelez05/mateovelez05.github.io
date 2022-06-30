@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="elestilo.css">
+    <title>Formulario Teosky</title>
+</head>
+<body>
+    <form>
+    <section class="register">
+        <h3>Formulario contacto</h3>
+        <input class="control" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+        <input class="control" type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required>
+        <input class="control" type="text" name="correo" id="correo" required placeholder="Ingrese su correo: email@email.com">
+        <input class="control" class="controls"type="number" name="numero" id="numero" pattern="[0-9]+" placeholder="Ingrese su número de teléfono" required> <br>
+        <input class="control"type="date" id="fechanacimiento" name="fechanacimiento" step="1" min="1900-01-01" max="2022-12-31" placeholder="Seleccione su fech de nacimiento" required> <br>
+        <select class="control" name="genero" id="genero" required>
+        <option value="">Seleccione su género</option>
+        <option value="hombre">Hombre</option>
+        <option value="mujer">Mujer</option>
+        </select>
+        <select class="control" name="horario" id="genero" required>
+        <option value="">¿Horario disponible?</option>
+        <option value="mañana">Mañana</option>
+        <option value="tarde">Tarde</option>
+        <option value="noche">Noche</option>
+        </select>
+        <textarea class="control" id="desc" name="desc" cols="50" rows="6" placeholder="Ingrese las sugerencias que tiene sobre la página"></textarea>
+        <input class="boton" type="submit" value="Enviar" id="enviar" name="enviar">
+        <input class="boton" type="reset" value="Restablecer" id="borrar" name="borrar">
+
+    </section>
+    </form>
+</body>

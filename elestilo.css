@@ -1,0 +1,62 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	background-image: url(../html/backgrounp.jpg);
+	background-repeat: none;
+	
+}
+
+.register
+{
+	width: 530px;
+	background: #FF0000;
+	padding: 45px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	font-family: serif;
+	color: whitesmoke;
+	box-shadow: 7px 13px 37px #000;
+}
+
+.register h3
+{
+	font-size: 23px;
+	margin-bottom: 20px;
+	color: whitesmoke;
+}
+
+.control
+{
+	width: 100%;
+	background: #FFDC00;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #000000;
+	font-family: serif;
+	font-size: 18px;
+}
+
+.register .boton
+{
+	width: 100%;
+	background: #FF5900;
+	padding: 8px;
+	margin: 16px 0;
+	font-size: 17px;
+	color: whitesmoke;
+
+}
+
+
+
+
+
+
